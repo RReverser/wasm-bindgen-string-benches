@@ -1,0 +1,12 @@
+[package]
+name = "wasm-bindgen-string-benches"
+version = "0.1.0"
+authors = ["Ingvar Stepanyan <me@rreverser.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.43"
